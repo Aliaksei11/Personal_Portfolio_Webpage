@@ -1,9 +1,8 @@
 /* set colors */
 :root {
   --main-white: white;
-  --main-red: red;
-  --main-blue: blue;
-  --main-gray: gray;
+  --main-red: linear-gradient(40deg, #eb1111 10%, #240e3a 100%);
+  --main-gray: linear-gradient(90deg, #1362b1 10%, #240e3a 100%);
   --main-gold: gold;
 }
 
@@ -120,10 +119,6 @@ img {
   padding: 2rem;
 }
 
-.nav-list a:hover {
-  background: var(--main-blue);
-}
-
 /* Welcome section */
 
 .welcome-section {
@@ -150,7 +145,8 @@ img {
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-blue);
+  background-image: url(https://aliakseimazheika.github.io/Personal_Portfolio_Webpage/office.jpg);
+  background-size: cover;
 }
 
 .projects-section-header {
